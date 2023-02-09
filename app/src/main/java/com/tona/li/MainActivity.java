@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleSignInClient googleSignInClient;
     private FirebaseAuth firebaseAuth;
     private static final String Tag = "Google_Signin_Tag";
+
 
 
     @Override
@@ -94,7 +96,24 @@ public class MainActivity extends AppCompatActivity {
                 .requestEmail()
                 .build();
 
-        GoogleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
+        googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
+
+        //init firebase
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        //button
+        binding.btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //begin
+                Log.d(Tag,"onClick Begin Signin");
+                Intent intent = googleSignInClient.getSignInIntent();
+                startActivity
+
+
+            }
+        });
+
 
 
 
