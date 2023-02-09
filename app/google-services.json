@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666008329231",
+    "project_id": "tona-1",
+    "storage_bucket": "tona-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666008329231:android:5a70482e0282b578f5977a",
+        "android_client_info": {
+          "package_name": "com.tona.li"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666008329231-eotoqt9k1b1pjohnukip8jis0l5767hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tona.li",
+            "certificate_hash": "e41ab7997501d7954274993b7c0be7ae4b12cddc"
+          }
+        },
+        {
+          "client_id": "666008329231-njso92ankha94ic25039iosjks4ubblj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk6xskjweYpSz--Fd_9iaPDyRrziqu6_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666008329231-njso92ankha94ic25039iosjks4ubblj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
